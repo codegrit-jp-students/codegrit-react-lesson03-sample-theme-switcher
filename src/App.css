@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  width: 400px; 
+  margin: 20px;
 }
 
 .App-logo {
@@ -30,4 +31,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+a {
+  color: #61dafb;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+ul > li {
+  margin-bottom: 5px;
 }
